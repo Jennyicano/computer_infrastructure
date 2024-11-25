@@ -1,6 +1,6 @@
 #! /bin/bash
 # This script download the latest weather data for the Athenry weather station from Met Eireann, 
-# saving the weather data in a file with a timestamped name in the format YYYYmmdd_HHMMSS. 
+# saving the weather data in a file with a timestamp name in the format YYYYmmdd_HHMMSS. 
 # in the data/weather directory. 
 
 date
