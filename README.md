@@ -1,5 +1,5 @@
 ## Module Computer Infrastructure
 
-**by Jennifer Ibanez Cano.student at ATU
+**by Jennifer Ibanez Cano. Student at ATU
 
-This repository contains my assesment submission for the module Computer Infrastucture. 
+This repository contains my assessment submission for the module Computer Infrastructure. 
