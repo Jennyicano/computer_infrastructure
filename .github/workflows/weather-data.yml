@@ -20,10 +20,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    # Step 2: Run the weather.sh script
     - name: Run weather.sh script
       run: bash weather.sh
 
-    # Step 4: Commit and push changes to the repository
+    # Step 3: Commit and push changes to the repository
     - name: Commit and push changes
       run: |
         git config --global user.name 'GitHub Actions[bot]'
