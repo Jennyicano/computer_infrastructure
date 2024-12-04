@@ -1,0 +1,48 @@
+name: Run Weather Script
+
+on:
+  schedule:
+    # Run every day at 10:00AM UTC
+    - cron: '0 10 * * *'   # Using cron syntax to schedule the script to run at a 10am UTC. 
+  workflow_dispatch:
+
+permissions:
+  contents: write 
+  # Grant write permissions to the repository so that the script can commit and push changes
+
+jobs:
+  # Defining the type of virtual machine to run the script.
+  run-stocks-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the repository to access the script.
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip  
+      # Upgrading pip to the latest version
+        pip install -r requirements.txt 
+      # Installing dependencies from the requirements.txt file
+
+    - name: Run weather.sh script
+      run: bash weather.sh
+
+    # Step 4: Commit and push changes to the repository
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions[bot]'
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Automated update in weather.sh script" || exit 0
+        echo "No changes to commit"
+        git push origin main
