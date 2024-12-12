@@ -23,13 +23,12 @@ For the project, I automated my [weather.sh](https://github.com/Jennyicano/compu
 
 **Getting started**
 
-The tools that I needed to install and used in my computer to complete the module tasks and project were the following: 
+The tools that I needed to install and then I used in my computer to complete the module tasks and project were the following: 
 
 * [Download Anaconda](https://www.anaconda.com/download/success). 
 * Install the latest version of [Git](https://git-scm.com/downloads).
 * [vs code](https://code.visualstudio.com).
 * Sign up in [GitHub Student](https://education.github.com/pack)  
-* 
 
 **Author**
 
