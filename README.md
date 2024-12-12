@@ -2,7 +2,7 @@
 
 ![Computer infrastructure](https://blog.interfell.com/hubfs/Qué%20está%20pasando%20en%20la%20industria%20de%20la%20tecnología.jpg)
 
-*** by Jennifer Ibanez Cano. Student of Higher Diploma in Science in Computing in Data Analytics at the [ATU Galway](https://www.atu.ie), 2024.***
+**by Jennifer Ibanez Cano. Student of Higher Diploma in Science in Computing in Data Analytics at the [ATU Galway](https://www.atu.ie), 2024.**
 
 **About this repository**
 
@@ -40,3 +40,4 @@ Below are the references and sources that I used to complete the tasks and the p
 
 * [GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
 * [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
+* [GitHub Command lines for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
