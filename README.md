@@ -41,3 +41,4 @@ Below are the references and sources that I used to complete the tasks and the p
 * [GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions)
 * [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
 * [GitHub Command lines for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
+* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
